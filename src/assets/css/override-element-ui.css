@@ -1,0 +1,13 @@
+.el-main,
+.el-footer {
+  padding: 0;
+}
+
+.el-container,
+.el-header,
+.el-main,
+.el-footer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}

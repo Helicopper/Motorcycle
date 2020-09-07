@@ -1,0 +1,179 @@
+{
+    "info_card": {
+        "name": "doctor",
+        "affiliation": "SYSU",
+        "email": "123@qq.com"
+    },
+    "info_card_sub": {
+        "data": ["Citation: 8000", "hindex: 20"],
+        "graphName": "ins_expert_influnce_bar"
+    },  
+    "dimensions_data": [
+        {
+            "dimension": "entity",
+            "data": ["entity1", "entity2"],
+            "graphName": "aiTech_entity"
+        },
+        {
+            "dimension": "interest",
+            "data": ["topic1", "topic2"],
+            "graphName": "aiTech_linefold"
+        },
+        {
+            "dimension": "skill",
+            "data": ["keyWord1", "keyWord2"],
+            "graphName": ""
+        },
+        {
+            "dimension": "publication",
+            "data": ["Optimization of Traffic Signals Using Deep Learning Neural Networks", 
+                "Biologically feasible deep learning with segregated dendrites",
+                "Personalizing deep learning models for automatic sleep staging"]
+        }
+    ],
+    "visual": {
+        "aiTech_linefold": {
+            "tab1": {
+                "title": "[AI关键技术]在学术、新闻和专利中的随时间的变化",
+                "data": {
+                    "paper": {
+                        "2000": 3237,
+                        "2001": 2164,
+                        "2002": 7561,
+                        "2003": 7778,
+                        "2004": 7355,
+                        "2005": 2405,
+                        "2006": 1842,
+                        "2007": 2090,
+                        "2008": 1762,
+                        "2009": 1593
+                    },
+                    "news": {
+                        "2000": 4563,
+                        "2001": 2548,
+                        "2002": 1254,
+                        "2003": 3541,
+                        "2004": 2513,
+                        "2005": 2864,
+                        "2006": 2114,
+                        "2007": 2001,
+                        "2008": 2365,
+                        "2009": 3000
+                    },
+                    "patent": {
+                        "2000": 1022,
+                        "2001": 1354,
+                        "2002": 1654,
+                        "2003": 1235,
+                        "2004": 1894,
+                        "2005": 1698,
+                        "2006": 1475,
+                        "2007": 1666,
+                        "2008": 1845,
+                        "2009": 1999
+                    }
+                }
+
+            }
+        },
+        "aiTech_entity": {
+            "tab1": {
+                "title": "ai技术随学术的实体概念",
+                "data": {
+                    "center": [{
+                        "name": "AI",
+                        "value": 20,
+                        "correlation": 0
+                    }],
+                    "up": [{
+                            "name": "CNN",
+                            "value": 20,
+                            "correlation": 25
+                        },
+                        {
+                            "name": "GBDT",
+                            "value": 20,
+                            "correlation": 20
+                        },
+                        {
+                            "name": "BERT",
+                            "value": 15,
+                            "correlation": 10
+                        }
+                    ],
+                    "down": [{
+                            "name": "CV",
+                            "value": 20,
+                            "correlation": 25
+                        },
+                        {
+                            "name": "KNN",
+                            "value": 10,
+                            "correlation": 40
+                        },
+                        {
+                            "name": "K-means",
+                            "value": 20,
+                            "correlation": 35
+                        }
+                    ]
+                }
+            },
+            "tab2": {
+                "title": "ai技术随新闻的实体概念",
+                "data": {
+                    "center": [{
+                        "name": "AI",
+                        "value": 20,
+                        "correlation": 0
+                    }],
+                    "up": [{
+                            "name": "CNN",
+                            "value": 20,
+                            "correlation": 25
+                        },
+                        {
+                            "name": "GBDT",
+                            "value": 20,
+                            "correlation": 20
+                        },
+                        {
+                            "name": "BERT",
+                            "value": 15,
+                            "correlation": 10
+                        }
+                    ],
+                    "down": [{
+                            "name": "CV",
+                            "value": 20,
+                            "correlation": 25
+                        },
+                        {
+                            "name": "KNN",
+                            "value": 10,
+                            "correlation": 40
+                        },
+                        {
+                            "name": "K-means",
+                            "value": 20,
+                            "correlation": 35
+                        }
+                    ]
+                }
+            }
+        },
+        "ins_expert_influnce_bar": {
+            "tab": {
+                "title": "",
+                "data": {
+                    "expert1": 3237,
+                    "expert2": 2164,
+                    "expert3": 7561,
+                    "expert4": 7778,
+                    "expert5": 7355,
+                    "expert6": 2405
+                }
+            }
+        }
+    }
+}

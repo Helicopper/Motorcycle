@@ -1,0 +1,44 @@
+         .tabBox {
+             margin: 20px auto;
+             width:500px;
+         }
+         .tabBox ul {
+             position:relative;
+             top:1px;
+             right:40px;
+             /* 相对于之前的位置向下移动1px,使边框重合 */
+         }
+         .tabBox ul li {
+            display: inline-block;
+            /* 同一行，块标签 */
+            margin-right:10px;
+            padding:0 10px;
+            line-height: 33px;
+            border:1px solid #AAA;
+            cursor: pointer;
+         }
+         .tabBox ul li.active {
+             color:lightcoral;
+             font-weight:bold;
+             border-bottom-color:#fff;
+             /* 当前li的边框覆盖率div的边框，我们让li的下边框为背景颜色白色，这样看上去就像没边框 */
+         }
+          .tabBox search-wrapper {
+              display: none;
+              line-height: 148px;
+              text-align: center;
+              border:1px solid #AAA;
+          }
+          .tabBox search-wrapper.active {
+              display: block;
+          }
+          .tabBox search-wrapper2 {
+              display: none;
+              line-height: 148px;
+              text-align: center;
+              border:1px solid #AAA;
+          }
+          .tabBox search-wrapper2.active {
+              display: block;
+              /* div .active加空格是后代筛选，先搜索div在div中筛选，div .active不加空格当前div标签的二次筛选，同级筛选 */
+          }
